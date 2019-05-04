@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1556906832 source:/home/walid/INF442/ProjetInf442/main.cpp
+	<iostream>
+	<stdio.h>
+	<limits.h>
+

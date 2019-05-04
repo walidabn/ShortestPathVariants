@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1556985888 source:/home/walid/INF442/ProjetWM/main.cpp
+	<iostream>
+	<stdio.h>
+	<limits.h>
+	"QuestionOne.cpp"
+	"QuestionOnePar.cpp"
+
+1556985472 /home/walid/INF442/ProjetWM/QuestionOne.cpp
+	"QuestionOne.hpp"
+	<iostream>
+	<stdio.h>
+	<limits.h>
+
+1556915971 /home/walid/INF442/ProjetWM/QuestionOne.hpp
+	<iostream>
+	<stdio.h>
+	<limits.h>
+
+1556985472 source:/home/walid/INF442/ProjetWM/QuestionOne.cpp
+	"QuestionOne.hpp"
+	<iostream>
+	<stdio.h>
+	<limits.h>
+
+1556986249 /home/walid/INF442/ProjetWM/QuestionOnePar.cpp
+	"QuestionOnePar.hpp"
+	<unistd.h>
+	<iostream>
+	<climits>
+	<pthread.h>
+	<queue>
+	<algorithm>
+	<memory>
+	<thread>
+	<time.h>
+	<mutex>
+	<condition_variable>
+	<chrono>
+
+1556986247 /home/walid/INF442/ProjetWM/QuestionOnePar.hpp
+	<time.h>
+	<unistd.h>
+	<pthread.h>
+	<iostream>
+	<climits>
+	<queue>
+	<algorithm>
+	<memory>
+	<thread>
+	<mutex>
+	<condition_variable>
+	<chrono>
+
+1556985843 source:/home/walid/INF442/ProjetWM/QuestionOnePar.cpp
+	"QuestionOnePar.hpp"
+	<unistd.h>
+	<iostream>
+	<climits>
+	<queue>
+	<algorithm>
+	<memory>
+	<thread>
+	<time.h>
+	<mutex>
+	<condition_variable>
+	<chrono>
+

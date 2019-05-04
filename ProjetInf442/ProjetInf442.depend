@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1556916014 source:/home/walid/INF442/ProjetInf442/src/QuestionOne.cpp
+	"QuestionOne.hpp"
+	<iostream>
+	<stdio.h>
+	<limits.h>
+
+1556915971 /home/walid/INF442/ProjetInf442/src/QuestionOne.hpp
+	<iostream>
+	<stdio.h>
+	<limits.h>
+
