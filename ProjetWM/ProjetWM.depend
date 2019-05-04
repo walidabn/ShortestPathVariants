@@ -1,10 +1,15 @@
 # depslib dependency file v1.0
-1556985888 source:/home/walid/INF442/ProjetWM/main.cpp
+1557012426 source:/home/walid/INF442/ProjetWM/main.cpp
 	<iostream>
 	<stdio.h>
 	<limits.h>
-	"QuestionOne.cpp"
-	"QuestionOnePar.cpp"
+	"QuestionOne.hpp"
+	"QuestionOnePar.hpp"
+	"QuestionTwo.hpp"
+	"QuestionTwo.cpp"
+	"Graph.cpp"
+	"Edge.hpp"
+	"Edge.cpp"
 
 1556985472 /home/walid/INF442/ProjetWM/QuestionOne.cpp
 	"QuestionOne.hpp"
@@ -12,12 +17,12 @@
 	<stdio.h>
 	<limits.h>
 
-1556915971 /home/walid/INF442/ProjetWM/QuestionOne.hpp
+1556999964 /home/walid/INF442/ProjetWM/QuestionOne.hpp
 	<iostream>
 	<stdio.h>
 	<limits.h>
 
-1556985472 source:/home/walid/INF442/ProjetWM/QuestionOne.cpp
+1557000003 source:/home/walid/INF442/ProjetWM/QuestionOne.cpp
 	"QuestionOne.hpp"
 	<iostream>
 	<stdio.h>
@@ -52,11 +57,12 @@
 	<condition_variable>
 	<chrono>
 
-1556985843 source:/home/walid/INF442/ProjetWM/QuestionOnePar.cpp
+1556989113 source:/home/walid/INF442/ProjetWM/QuestionOnePar.cpp
 	"QuestionOnePar.hpp"
 	<unistd.h>
 	<iostream>
 	<climits>
+	<pthread.h>
 	<queue>
 	<algorithm>
 	<memory>
@@ -65,4 +71,75 @@
 	<mutex>
 	<condition_variable>
 	<chrono>
+
+1557011047 source:/home/walid/INF442/ProjetWM/Edge.cpp
+	<iostream>
+	"Edge.hpp"
+
+1557010988 /home/walid/INF442/ProjetWM/Edge.hpp
+	<iostream>
+
+1557011073 source:/home/walid/INF442/ProjetWM/Graph.cpp
+	<vector>
+	<iostream>
+	<string>
+	"Edge.hpp"
+	"Graph.hpp"
+	<fstream>
+	<cstdlib>
+
+1557012035 /home/walid/INF442/ProjetWM/Graph.hpp
+	<vector>
+	<iostream>
+	"Edge.hpp"
+
+1557010718 /home/walid/INF442/ProjetWM/QuestionTwo.hpp
+	<iostream>
+	<vector>
+	<list>
+	"Graph.hpp"
+
+1557011073 /home/walid/INF442/ProjetWM/Graph.cpp
+	<vector>
+	<iostream>
+	<string>
+	"Edge.hpp"
+	"Graph.hpp"
+	<fstream>
+	<cstdlib>
+
+1557000343 source:/home/walid/INF442/ProjetWM/QuestionThree.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<limits>
+	"Graph.hpp"
+	"QuestionTwo.hpp"
+	<cstdlib>
+
+1557010919 source:/home/walid/INF442/ProjetWM/QuestionTwo.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<stdio.h>
+	<limits>
+	"Graph.hpp"
+	"QuestionTwo.hpp"
+	<bits/stdc++.h>
+	<cstdlib>
+
+1557012736 /home/walid/INF442/ProjetWM/QuestionTwo.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<stdio.h>
+	<limits>
+	"Graph.hpp"
+	"QuestionTwo.hpp"
+	<bits/stdc++.h>
+	<cstdlib>
+
+1557011047 /home/walid/INF442/ProjetWM/Edge.cpp
+	<iostream>
+	"Edge.hpp"
 
